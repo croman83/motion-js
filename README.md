@@ -1,1 +1,1 @@
-Webpack 5, typescript, scss
+Using canvas for motion detection

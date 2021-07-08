@@ -1,5 +1,7 @@
 import '../scss/app.scss';
+import MotionDetector from './motion';
 
-/* Your JS Code goes here */
-const a: string = 'test';
-console.log(a)
+window.onload = () => {
+  const motionDetector = new MotionDetector();
+  motionDetector.init();
+}

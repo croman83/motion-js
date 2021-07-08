@@ -17,7 +17,23 @@
 /* Browser specific styles */
 @import 'dirty/hacks';
 
+#camStream, #canvas {
+  opacity:0;
+  position:fixed;
+  top:0;
+  left:0;
+}
+
+#canvasFinal {
+  margin:0 auto;
+  display:block;
+  min-width: 640px;
+  min-height: 480px;
+  background-color: #f1f1f1;
+}
+
 body {
+  text-align: center;
   margin: 0;
-  box-shadow: none;
+  padding: 0;
 }
